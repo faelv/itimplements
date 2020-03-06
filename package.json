@@ -1,0 +1,35 @@
+{
+  "name": "itimplements",
+  "version": "0.1.0",
+  "description": "Checks if an object has all members of another one without requiring inheritance",
+  "license": "ISC",
+  "author": "faelv <rafaelvansolini.dev@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faelv/itimplements.git"
+  },
+  "bugs": {
+    "url": "https://github.com/faelv/itimplements/issues"
+  },
+  "homepage": "https://github.com/faelv/itimplements#readme",
+  "keywords": [
+    "implements",
+    "interface"
+  ],
+  "types": "src/main.d.ts",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/register": "^7.8.6",
+    "babel-plugin-istanbul": "^6.0.0",
+    "core-js": "^3.6.4",
+    "mocha": "^7.1.0",
+    "nyc": "^15.0.0"
+  }
+}

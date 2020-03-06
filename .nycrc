@@ -1,0 +1,9 @@
+{
+  "tempDir": "nyc_output",
+  "reportDir": "coverage",
+  "sourceMap": false,
+  "instrument": false,
+  "reporter": ["text", "lcovonly"],
+  "checkCoverage": false,
+  "lines": 90
+}
